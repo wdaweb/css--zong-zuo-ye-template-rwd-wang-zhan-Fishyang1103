@@ -1,0 +1,152 @@
+/* 768px 以上 */
+@media(min-width:768px) {
+  h1 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  h5 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .flexImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .restaurant-img {
+    display: flex;
+    flex-basis: 50%;
+    width: 50%;
+    margin-right: -20px;
+    margin-left: -20px;
+    object-fit: cover;
+  }
+
+  #content3 h1 {
+    margin-left: -7px;
+  }
+
+  .content3Flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 0 10px;
+  }
+
+  .content3-2 {
+    padding-left: 35px;
+  }
+
+  .content3-1, .content3-2, .content3-3 {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+  }
+
+  .content3-4 {
+    height: 600px;
+  }
+
+  .content4Flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content4 {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .content4 .content4-word a {
+    font-size: 20px;
+  }
+
+  .content4 .content4-word2 {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+
+  .content5Flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content5 {
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    margin: 10px 6px;
+  }
+
+  .content6Flex {
+    display: flex;
+    justify-content: center;
+    padding: 0 30px 40px 40px;
+  }
+
+  .people {
+    width: 50%;
+  }
+
+  #content7 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .content7 {
+    width: 33.33333%;
+  }
+
+  .content7-img {
+    width: 90%;
+  }
+
+  .content7-word {
+    width: 90%;
+  }
+
+  .content7-word h2 {
+    font-size: 70px;
+  }
+
+  .content7-img img {
+    width: 100%;
+  }
+
+  .nav.list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-list li {
+    width: 10%;
+  }
+
+  #footer-2 p {
+    font-size: 16px;
+  }
+
+  .pFlex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pFlex .address {
+    margin-right: 30px;
+  }
+}
